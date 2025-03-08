@@ -1,7 +1,7 @@
 # define Variables
 # set Super as mod key
 set $mod Mod4
-set $wallpaper ~/Pictures/walls-fav/wall-384.png
+set $wallpaper ~/Pictures/walls-fav/image_478.jpg
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -21,7 +21,7 @@ workspace $ws6 output eDP
 
 
 #keyboard shortcuts to start applications
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec wezterm
 # tool to make screenshots
 bindsym $mod+Shift+p exec flameshot gui
 bindsym $mod+space exec --no-startup-id rofi -show drun
@@ -133,7 +133,7 @@ gaps outer 1
 for_window [class=".*"] border pixel 0
 
 # execute some files
-exec_always --no-startup-id feh --bg-scale $wallpaper
+exec_always --no-startup-id feh --bg-fill $wallpaper
 exec_always --no-startup-id picom
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # exec_always --no-startup-id $HOME/.config/conky/launch.sh
