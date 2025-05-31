@@ -51,16 +51,17 @@ bindsym $mod+b exec --no-startup-id "/home/mdlxxiii/scripts/rofi-bash-launcher.s
 
 ############### KEYBOARD SHORTCUTS TO LOCKSCREEN, SUPSEND, SHUTDOWN, LOGOUT, RELOAD i3 ###############
 bindsym $mod+Shift+b exec betterlockscreen -l --display 1
-bindsym $mod+Shift+s exec systemctl suspend
-# hibernate doesn't work idk why (maybe swap partition?)
-# TODO bindsym $mod+Shift+h exec systemctl hibernate
+# with gui prompt to avoid accidentally suspending or shutting down pc
+bindsym $mod+Shift+s exec --no-startup-id $HOME/.config/i3/suspend.sh
+bindsym $mod+Shift+d exec --no-startup-id $HOME/.config/i3/shutdown.sh
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+d exec "shutdown now"
 # reload i3 config file
 bindsym $mod+Shift+c reload
 # replace the entire i3 instance with a new one
 bindsym $mod+Shift+r restart
+# hibernate doesn't work idk why (maybe swap partition?) -> brauche ich eigentlich nicht -> suspend reicht völlig
+# TODO bindsym $mod+Shift+h exec systemctl hibernate
 
 
 ############### CONTROL VOLUME WITH VOLUME KEYS ON KEYBOARD ###############
