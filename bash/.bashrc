@@ -137,7 +137,7 @@ function y() {
 }
 
 # Zoxide
-eval "$(zoxide init bash)"
+# eval "$(zoxide init bash)"
 
 
 
@@ -148,7 +148,7 @@ eval "$(zoxide init bash)"
 
 
 
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 
 # >>> conda initialize >>>
