@@ -119,6 +119,12 @@ if ! shopt -oq posix; then
 fi
 
 # My Changes
+
+source "$HOME/dotfiles/shared/theme.conf"
+
+
+
+
 #export PATH="$PATH:~/Sandbox/john/run"
 #export PATH="$PATH:~/Sandbox"
 

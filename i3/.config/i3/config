@@ -1,7 +1,7 @@
 ############### define Variables ###############
 # set Super as mod key
 set $mod Mod4
-set $wallpaper /home/mdlxxiii/Downloads/laptop-1366-x-768.jpg
+set $wallpaper /home/mdlxxiii/Pictures/wallpapers/girl/anime-girl-with-white-hair-8k-wallpaper-uhdpaper.com-693@2@b.jpg 
 # change lockscreen wallpaper with "betterlockscreen -u <path/to/image> --display 1"
 
 ############### define fonts, border and gaps etc. ###############
@@ -24,7 +24,7 @@ for_window [class=".*"] border pixel 0
 
 ############### MONITOR SETTINGS ###############
 # choose setup by commenting and uncommenting
-# exec_always --no-startup-id autorandr --load parents
+exec_always --no-startup-id autorandr --load parents
 # exec_always --no-startup-id $HOME/.config/i3/parents-setup.sh
 # exec_always --no-startup-id $HOME/.config/i3/university-setup.sh
 
