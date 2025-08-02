@@ -122,7 +122,8 @@ fi
 
 source "$HOME/dotfiles/shared/theme.conf"
 
-
+# damit die farben auch für neu gestartete terminals übernommen werden
+cat ~/.cache/wal/sequences
 
 
 #export PATH="$PATH:~/Sandbox/john/run"

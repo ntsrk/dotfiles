@@ -8,7 +8,7 @@ local theme = dofile('/home/mdlxxiii/dotfiles/shared/theme.lua')
 local config = {}
 
 -- Window appearance
-config.window_background_opacity = 0.5          -- Komplett undurchsichtig
+config.window_background_opacity = 0.8          -- Komplett undurchsichtig
 config.text_background_opacity = 1.0            -- Optional, Text-Hintergrund 100%
 
 config.window_background_image_hsb = {
@@ -16,6 +16,13 @@ config.window_background_image_hsb = {
   hue = 1.0,
   saturation = 1.0,
 }
+
+-- color_scheme mache ich jetzt mithilfe von pywal
+-- config.color_scheme = 'Afterglow'
+-- config.color_scheme = 'MaterialDark'
+-- config.color_scheme = 'Tokyo Night'
+-- config.color_scheme = 'Catppuccin Mocha'
+-- config.color_scheme = 'OneDark (base16)'
 
 -- Schrift
 config.font = wezterm.font(theme.FONT)

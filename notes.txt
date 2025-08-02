@@ -1,0 +1,9 @@
+transparenz
+wezterm -> wezterm/.wezterm.lua (wenn über picom dann ist der text zu dunkel)
+spotify etc. -> picom/picom.conf
+
+
+schriftart, schriftgröße etc.
+wezterm -> shared/theme.lua (damit änderungen in wezterm sichtbar sind muss update_theme.sh ausgeführt werden)
+polybar -> polybar/config.ini
+rest -> shared/theme.conf
