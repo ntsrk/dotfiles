@@ -57,7 +57,7 @@ exec --no-startup-id wal -R # damit die konfiguration von pywal wieder geladen w
 # um ein neues Wallpaper zu setzten: wal -i <path/to/image> (das schreibt automatisch dann den neuen Pfad etc. in ~/.fehbg und generiert Colorpalette etc.
 # merkt sich das letzte Bild das man gesetzt hat
 # exec_always --no-startup-id /home/mdlxxiii/.fehbg
-exec --no-startup-id sh -c "sleep 0.5 && /home/mdlxxiii/.fehbg" # benötigt kleine Verzögerung, da sonst das Timing nicht stimmt kein Plan
+exec_always --no-startup-id sh -c "sleep 0.5 && /home/mdlxxiii/.fehbg" # benötigt kleine Verzögerung, da sonst das Timing nicht stimmt kein Plan
 # change lockscreen wallpaper with "betterlockscreen -u <path/to/image> --display 1"
 
 
