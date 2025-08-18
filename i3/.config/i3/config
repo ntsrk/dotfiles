@@ -16,9 +16,7 @@ gaps outer 1
 # remove window border for focused window
 for_window [class=".*"] border pixel 0
 
-# TODO Set GTK3 theme to Yaru-dark
-# exec --no-startup-id gsettings set org.cinnamon.desktop.interface gtk-theme 'Yaru-dark'
-# exec_always gsettings set org.cinnamon.desktop.interface gtk-theme "Mint-Y-Dark"
+# fonts, icons etc. for GTK3 can be changed with GUI lxappearance
 
 
 ############### MONITOR SETTINGS ###############

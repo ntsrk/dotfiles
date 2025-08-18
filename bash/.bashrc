@@ -118,20 +118,27 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# My Changes
+########## My Changes ##########
 
+# config-file für Schriftart etc.
 source "$HOME/dotfiles/shared/theme.conf"
 
-# damit die farben auch für neu gestartete terminals übernommen werden
+# damit die Farben auch für neu gestartete terminals übernommen werden
 cat ~/.cache/wal/sequences
-
 
 #export PATH="$PATH:~/Sandbox/john/run"
 #export PATH="$PATH:~/Sandbox"
 
-# damit weniger Text im Terminal steht (kein Username und Hostname)
-PS1='\[\e[1;34m\]\w\[\e[0m\]$ '
+parse_git_branch() {
+  git branch --show-current 2>/dev/null
+}
 
+two_last_dirs() {
+  pwd | awk -F/ '{if (NF>2) print "/"$(NF-1) "/" $NF; else print "/"$NF}'
+}
+
+# damit weniger Text im Terminal steht (kein Username und Hostname)
+PS1='\[\e[1;34m\]$(two_last_dirs)\[\e[0m\]:$(parse_git_branch)$ '
 
 # change terminal directory to yazi's current directory after closing yazi
 function y() {
@@ -143,8 +150,6 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-# Zoxide
-# eval "$(zoxide init bash)"
 
 
 
@@ -155,21 +160,5 @@ function y() {
 
 
 
-# . "$HOME/.cargo/env"
 
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/mdlxxiii/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/mdlxxiii/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/mdlxxiii/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/mdlxxiii/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 

@@ -3,11 +3,10 @@
 
   "logo": {
     "type": "kitty-direct",
-    // "source": "~/Pictures/profile-fav/wallhaven-wezvyp.jpg",
-    "source": "$HOME/Pictures/profile-fav/gengar_profile_pic.jpeg",
-    // "source": "~/Pictures/profile-fav/wallhaven-l8127l.png",
-    // "width": 30,
-    // "height": 15,
+    // "source": "$HOME/Pictures/profile-fav/gengar_profile_pic.jpeg",
+    "source": "/home/mdlxxiii/Pictures/profile-fav/gengar-gang.png",
+    //"width": 30,
+    //"height": 10,
     "padding": {
         "top": 1,
         "left": 2,
@@ -25,41 +24,41 @@
       "type": "title",
       "key": "  Host",
       "format": "{1}@{2}",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "host",
       "key": "󰌢  Chassis",
       "format": "{1}",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "os",
       "format": "{3}",
       "key": "󰣭  Distro",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "kernel",
       "key": "  Kernel",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{2}"
     },
     {
       "type": "shell",
       "key": "  Shell",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{1} {4}"
     },
     {
       "type": "packages",
       "key": "󰏗  Packages",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "wm",
       "key": "  WM",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{pretty-name} ({protocol-name})"
     },
     {
@@ -76,36 +75,36 @@
     {
       "type": "cpu",
       "key": "  CPU",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{name}"
     },
     {
       "type": "gpu",
       "key": "󰢮  GPU",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{vendor} {name}"
     },
     {
       "type": "memory",
       "key": "  RAM",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{1} / {2}"
     },
     {
       "type": "swap",
       "key": "󰯍  Swap",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "format": "{1} / {2}"
     },
     {
       "type": "disk",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "key": "  Disk",
       "format": "[{mountpoint}] - {size-used} / {size-total}"
     },
     {
       "type": "display",
-      "keyColor": "magenta",
+      "keyColor": "blue",
       "key": "󰍹  Display",
       "format": "{name}, {width}x{height} @ {refresh-rate}Hz, {inch}\" {type}"
     },
@@ -127,12 +126,12 @@
     {
       "type": "uptime",
       "key": "  Uptime",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "datetime",
       "key": "  Date",
-      "keyColor": "magenta",
+      "keyColor": "blue",
     "format": "{day-in-month}.{month-pretty}.{year} {hour-pretty}:{minute-pretty}"
     },
     {
@@ -151,27 +150,27 @@
     {
       "type": "theme",
       "key": "󰔎 Theme",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "icons",
       "key": " Icons",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "font",
       "key": " Font",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "terminalfont",
       "key": " Terminal Font",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     {
       "type": "cursor",
       "key": "󰇀 Cursor",
-      "keyColor": "magenta"
+      "keyColor": "blue"
     },
     //"terminal",
     

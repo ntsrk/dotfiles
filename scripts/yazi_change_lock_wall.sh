@@ -13,5 +13,5 @@ img=$(< /tmp/wallpaper_path)
 [ -z "$img" ] && echo "Keine neue Auswahl getroffen." && exit 1
 
 # Wallpaper setzen
-wal -i "$img" --saturate 0.75 && betterlockscreen -u "$img" --fx none --display 1
-
+# wal -i "$img" --saturate 1 && betterlockscreen -u "$img" --fx none --display 1
+wal -i "$img" && betterlockscreen -u "$img" --fx none --display 1
