@@ -121,7 +121,7 @@ fi
 ########## My Changes ##########
 
 # config-file für Schriftart etc.
-source "$HOME/dotfiles/shared/theme.conf"
+source "$HOME/Dotfiles/shared/theme.conf"
 
 # damit die Farben auch für neu gestartete terminals übernommen werden
 cat ~/.cache/wal/sequences
@@ -150,9 +150,9 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
 
-
-
+export PATH=/home/mdlxxiii/adb/platform-tools:$PATH
 
 
 

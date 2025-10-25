@@ -1,1 +1,1 @@
-touch /home/mdlxxiii/dotfiles/wezterm/.wezterm.lua
+touch /home/mdlxxiii/Dotfiles/wezterm/.wezterm.lua

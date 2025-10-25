@@ -2,7 +2,7 @@
 local wezterm = require 'wezterm'
 
 -- Theme laden
-local theme = dofile('/home/mdlxxiii/dotfiles/shared/theme.lua')
+local theme = dofile('/home/mdlxxiii/Dotfiles/shared/theme.lua')
 
 -- Create configuration using config_builder for better autocomplete and validation
 local config = {}

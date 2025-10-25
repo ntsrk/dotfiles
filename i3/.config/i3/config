@@ -14,7 +14,11 @@ gaps inner 12
 gaps outer 1
 
 # remove window border for focused window
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 3
+for_window [class="firefox"] border pixel 0
+for_window [class="obsidian"] border pixel 0
+for_window [class="spotify"] border pixel 0
+
 
 # fonts, icons etc. for GTK3 can be changed with GUI lxappearance
 
@@ -65,7 +69,7 @@ bindsym $mod+Return exec wezterm
 bindsym $mod+Shift+p exec flameshot gui
 bindsym $mod+space exec --no-startup-id rofi -show drun
 bindsym $mod+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort > /dev/null"
-bindsym $mod+b exec --no-startup-id "/home/mdlxxiii/scripts/rofi-bash-launcher.sh" 
+bindsym $mod+b exec --no-startup-id "/home/mdlxxiii/Scripts/rofi-bash-launcher.sh" 
 # bindsym $mod+Shift+space exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e bash -ic "{cmd} && read"'
 
 
