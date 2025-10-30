@@ -28,7 +28,7 @@ alias unmount_media='veracrypt --dismount /media/veracrypt32'
 
 ########## Tools ##########
 marktext() {
-	/home/mdlxxiii/app_images/marktext-x86_64.AppImage "$@" >/dev/null 2>&1 &
+	/home/mdlxxiii/App_Images/marktext-x86_64.AppImage "$@" >/dev/null 2>&1 &
 }
 
 
@@ -41,4 +41,4 @@ marktext() {
 
 ########## Arbeit ##########
 lebenslauf='/home/mdlxxiii/Arbeit/lebenslauf'
-
+kht_doku='/home/mdlxxiii/Arbeit/Arbeit_Haustechnik/Dokumentation/kht-it-systeme_V42'
