@@ -19,7 +19,7 @@ config.window_background_image_hsb = {
 
 -- color_scheme mache ich jetzt mithilfe von pywal
 -- config.color_scheme = 'Afterglow'
--- config.color_scheme = 'MaterialDark'
+config.color_scheme = 'MaterialDark'
 -- config.color_scheme = 'Tokyo Night'
 -- config.color_scheme = 'Catppuccin Mocha'
 -- config.color_scheme = 'OneDark (base16)'

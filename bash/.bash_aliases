@@ -6,7 +6,7 @@ bash_aliases='/home/mdlxxiii/.bash_aliases'
 bashrc='/home/mdlxxiii/.bashrc'
 alias wifi_restart='nmcli networking off && sleep 2 && nmcli networking on'
 i3='/home/mdlxxiii/Dotfiles/i3/.config/i3/config'
-
+dotfiles='/home/mdlxxiii/Dotfiles'
 
 ########## Piano Project ##########
 piano_robot='/home/mdlxxiii/Piano/piano_robot_project/piano_robot_project_software'

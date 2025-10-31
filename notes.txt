@@ -7,3 +7,8 @@ schriftart, schriftgröße etc.
 wezterm -> shared/theme.lua (damit änderungen in wezterm sichtbar sind muss update_theme.sh ausgeführt werden)
 polybar -> polybar/config.ini
 rest -> shared/theme.conf
+
+Farben dynamisch mit pywal
+"cat ~/.cache/wal/sequences" in .bashrc wieder entkommentieren
+
+Farbentheme statisch in .wezterm.lua
